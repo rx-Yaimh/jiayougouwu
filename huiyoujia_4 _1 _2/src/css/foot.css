@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.foot_con #footer {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.foot_con #footer .list1 {
+  margin: 20px auto 45px auto;
+  width: 100%;
+  height: 60px;
+}
+
+.foot_con #footer .list1 li {
+  height: 54px;
+  padding: 0 25px 0 82px;
+  float: left;
+  background: url(../img/warrant_icon.png) no-repeat 15px 0;
+  border-left: 1px solid #d6d6d6;
+}
+
+.foot_con #footer .list1 li .f_l_p1 {
+  line-height: 22px;
+  padding-top: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.foot_con #footer .list1 li .f_l_p2 {
+  line-height: 18px;
+  font-size: 12px;
+  color: #999;
+}
+
+.foot_con #footer .list1 .l2 {
+  background-position: 15px -55px;
+}
+
+.foot_con #footer .list1 .l3 {
+  background-position: 15px -110px;
+}
+
+.foot_con #footer .list1 .l4 {
+  background-position: 15px -165px;
+}
+
+.foot_con #footer .list1 .l5 {
+  background-position: 15px -220px;
+}
+
+.foot_con #footer .f_center {
+  width: 100%;
+  display: flex;
+  margin-left: 80px;
+}
+
+.foot_con #footer .f_center .f_c_left {
+  width: 72%;
+  display: flex;
+}
+
+.foot_con #footer .f_center .f_c_left dl {
+  width: 20%;
+}
+
+.foot_con #footer .f_center .f_c_left dl dt {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.foot_con #footer .f_center .f_c_left dl dt a {
+  line-height: 30px;
+  color: #666;
+  cursor: pointer;
+}
+
+.foot_con #footer .f_center .f_c_left dl dd a {
+  font-size: 12px;
+  cursor: pointer;
+  color: #999;
+  line-height: 20px;
+}
+
+.foot_con #footer .f_center .f_c_right {
+  width: 210px;
+  padding-right: 50px;
+}
+
+.foot_con #footer .f_center .f_c_right .fk {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.foot_con #footer .f_center .f_c_right .fk li {
+  width: 79px;
+  margin-right: 26px;
+}
+
+.foot_con #footer .f_center .f_c_right .fk li img {
+  width: 100%;
+}
+
+.foot_con #footer .f_center .f_c_right .fk li p {
+  line-height: 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  font-weight: bold;
+}
+
+.foot_con #footer .f_center .f_c_right .lx {
+  padding-left: 35px;
+  overflow: hidden;
+  background: url(../img/mobile.png) no-repeat;
+}
+
+.foot_con #footer .f_center .f_c_right .lx b {
+  line-height: 26px;
+  display: block;
+  font-size: 20px;
+  color: #666;
+  font-weight: bold;
+}
+
+.foot_con #footer .f_center .f_c_right .lx span {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  line-height: 14px;
+  margin-top: -3px;
+}
+
+.foot_con .f_bottom {
+  margin-top: 36px;
+  width: 100%;
+  height: 80px;
+  background: #333;
+  font-size: 12px;
+  color: #999;
+  padding-bottom: 20px;
+}
+
+.foot_con .f_bottom a {
+  display: inline-block;
+  color: #999;
+  text-decoration: none;
+}
+
+.foot_con .f_bottom a:hover {
+  color: #fff;
+}
+
+.foot_con .f_bottom .f_b_t {
+  margin-top: 12px;
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+}
+
+.foot_con .f_bottom .f_b_t dt {
+  margin-right: 5px;
+}
